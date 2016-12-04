@@ -1,0 +1,29 @@
+{
+  "name": "i-like-trains",
+  "version": "1.0.0",
+  "description": "Coding puzzle",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "start": "node src/app.js inputData.txt",
+    "app": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samit4me/i-like-trains.git"
+  },
+  "author": "Samuel Sharpe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samit4me/i-like-trains/issues"
+  },
+  "homepage": "https://github.com/samit4me/i-like-trains#readme",
+  "devDependencies": {
+    "jest": "17.0.3"
+  },
+  "jest": {
+    "collectCoverageFrom": ["src/**/*.js", "!**/node_modules/**", "!**/vendor/**"]
+  }
+}
