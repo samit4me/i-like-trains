@@ -1,8 +1,10 @@
 I Like Trains
 ==========
 
-Coding puzzle.
+#### Requirements
+node 6.9.1
 
+#### Getting started
 - `npm install`
 - `npm start`
 
